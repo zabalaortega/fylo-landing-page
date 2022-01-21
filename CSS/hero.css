@@ -1,0 +1,42 @@
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em;
+    text-align: center;
+    gap: 2em;
+    max-width: 1200px;
+}
+
+.hero img{
+    width: 100%;
+}
+
+.hero h1{ 
+    color: var(--White);
+    /* padding: 1em 0; */
+}
+
+@media screen and (min-width:768px) {
+    .hero-content{
+        padding: 1em 6em;
+    }
+    .hero .button{
+        width: 60%;
+    }
+    .hero img{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .hero-content{
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+}
+
+
+ 

@@ -1,0 +1,88 @@
+@import "./header.css";
+@import "./hero.css";
+@import "./services.css";
+@import "./stay.css";
+@import "./testimonial.css";
+@import "./intro.css";
+@import "./footer.css";
+
+:root{
+  --DarkBlueEmail: hsl(217, 28%, 15%); /*intro and email sign up background*/
+  --DarkBlueMain: hsl(218, 28%, 13%); /*main background*/
+  --DarkBlueFooter: hsl(216, 53%, 9%); /*footer background*/
+  --DarkBlueTestimonial: hsl(219, 30%, 18%);/*testimonials background*/
+  --Cyan: #65e2d9;
+  --Blue: #339ecc;
+  --LightRed: hsl(0, 100%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Span: rgb(179, 176, 176);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   background: var(--DarkBlueMain);
+}
+
+.wrapper{
+  margin: 0 1.5em;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+.nav-link{
+  color: var(--White);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.button{
+  width: 100%;
+  color: var(--White);
+  padding: 1em 5em;
+  border-radius: 25px;
+  border: none;
+  font-size: 1em;
+  height: 50px;
+  font-weight: bold;
+  background: linear-gradient(90deg, var(--Cyan) 0%,  var(--Blue) 60%);
+}
+
+h2, h3, h4{
+  color: var(--White);
+}
+
+h5{
+  color: var(--White);
+  letter-spacing: 1.2px;
+  padding-bottom: .2em;
+}
+
+p{
+  color: var(--White);
+  line-height: 1.8;
+}
+
+.is-hidden{
+  display: none;
+}
+
+input{
+  padding: 1em 3em;
+  border-radius: 25px;
+  border: none;
+  font-size: .8em;
+  height: 50px;
+}
+
+input::placeholder{
+  color: #85898b
+}
